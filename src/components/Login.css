@@ -1,6 +1,48 @@
 .login{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background: linear-gradient(45deg, #f6f7d4, #d2f6c5, #99f3bd, #28df99); */
+    background: linear-gradient(45deg, #faf3dd, #c8d5b9, #8fc0a9, #68b0ab);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
 }
+
+.login h1{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login h4{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login button{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #e0ece4;
+    border: none;
+    color: #52575d;
+}
+
+.login button:hover{
+    background-color: #41444b ;
+    color: #519872;
+}
+
+@keyframes colors{
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position:0% 50%;
+    }
+}
+

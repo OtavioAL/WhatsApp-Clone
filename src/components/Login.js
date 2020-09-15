@@ -15,6 +15,8 @@ export default ({onReceive}) => {
 
     return (
         <div className="login">
+            <h1>Seja bem vindo(a)</h1>
+            <h4>Clique no botão abaixo para comecar a usar</h4>
             <button onClick={handleFacebookLogin}>Logar com Facebook</button>
         </div>
     );
